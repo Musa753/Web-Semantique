@@ -1,0 +1,2505 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mouss/ontologies/2023/10/untitled-ontology-16"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mouss/ontologies/2023/10/untitled-ontology-16">
+    <Prefix name="" IRI="http://www.semanticweb.org/mouss/ontologies/2023/10/untitled-ontology-16"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <DataProperty IRI="#poidsMedicament"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateExpiration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicamentSansEffetSecondaire"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#allaitante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#naproxène"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hepatiteC"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#soignerPar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maux_tete"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fabriquepar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomIngredientActif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#description1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ibuprofène"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FabricantLocaux"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#antecedantMedicaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nausee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vancomycine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#morphine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gellule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#grippeSaisonnière"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientEnfant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pays"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#description2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maladie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tramadol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aspirineacétylsalicylique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaladieVirale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gravite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomEntreprise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Femme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dupont"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicamentPourFemmeEnceinte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicamentPolyvalent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateFabrication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#details"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomPatient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#azithromycine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientPoidsEleveAntecedants"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aForme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prednisone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prenomPatient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paracetamole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#loratadine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maux_estomac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#somnolence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#posologieRecom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#homme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diaabete"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#atorvastatine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#poidsPatient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estPrescrit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntiInflammantoire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fabrique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#soigne"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aEffetSecondaire"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomMaladie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicamentSansEffetGrave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#therence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#asthme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#comprime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prendsMedicaments"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#metronidazole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doxycycline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicamentNonFabriquePar_Ipsen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eruption_cutanee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diclofenac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientEnSurpoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#generique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#omeprazole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#decrit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Enceinte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#liquide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicamentPerime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#niveauTestosterone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rhumatoïde"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomCommercial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amoxicilline"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#symptomes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FabricantUnique"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomVirus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sanofi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#groupeSanguin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#covid-19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lipitor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dureeMC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaladieChronique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#delafontaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicamentImportant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estForme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormeMedicament"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ipsen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aIngredientActif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#description3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#adresse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#formeCorrespond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EffetSecondaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FabricantQueAntibiotique"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateNaissance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aspirine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#couleur"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomForme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antibiotique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#servier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formuleChimique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fabricant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vaccin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antalgique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#description4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngredientActif"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomEffet"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#astrazeneca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#injection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#effetSecondaireConcerne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hypertension"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#FabricantQueAntibiotique"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Fabricant"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#fabrique"/>
+                <Class IRI="#Antibiotique"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MedicamentPolyvalent"/>
+        <ObjectMinCardinality cardinality="3">
+            <ObjectProperty IRI="#soigne"/>
+            <Class IRI="#Maladie"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MedicamentSansEffetSecondaire"/>
+        <ObjectExactCardinality cardinality="0">
+            <ObjectProperty IRI="#aEffetSecondaire"/>
+            <Class IRI="#EffetSecondaire"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Antalgique"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntiInflammantoire"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antibiotique"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#decrit"/>
+            <Class IRI="#Medicament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EffetSecondaire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#effetSecondaireConcerne"/>
+            <Class IRI="#Medicament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fabricant"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#fabrique"/>
+            <Class IRI="#Medicament"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fabricant"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#fabrique"/>
+            <Class IRI="#Medicament"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FabricantLocaux"/>
+        <Class IRI="#Fabricant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FabricantUnique"/>
+        <Class IRI="#Fabricant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Femme"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Femme"/>
+        <ObjectComplementOf>
+            <Class IRI="#homme"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormeMedicament"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormeMedicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estForme"/>
+            <Class IRI="#Medicament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maladie"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#soignerPar"/>
+            <Class IRI="#Medicament"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaladieChronique"/>
+        <Class IRI="#Maladie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaladieVirale"/>
+        <Class IRI="#Maladie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aDescription"/>
+            <Class IRI="#Description"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aForme"/>
+            <Class IRI="#FormeMedicament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estPrescrit"/>
+            <Class IRI="#Patient"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#fabriquepar"/>
+            <Class IRI="#Fabricant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#soigne"/>
+            <Class IRI="#Maladie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#aIngredientActif"/>
+            <Class IRI="#IngredientActif"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectMaxCardinality cardinality="3">
+            <ObjectProperty IRI="#aForme"/>
+            <Class IRI="#FormeMedicament"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicamentImportant"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicamentNonFabriquePar_Ipsen"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicamentPerime"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicamentPolyvalent"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicamentPourFemmeEnceinte"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicamentSansEffetGrave"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicamentSansEffetSecondaire"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#prendsMedicaments"/>
+            <Class IRI="#Medicament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientEnSurpoids"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientEnfant"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientPoidsEleveAntecedants"/>
+        <Class IRI="#homme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#generique"/>
+        <Class IRI="#Medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#homme"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#homme"/>
+        <ObjectComplementOf>
+            <Class IRI="#Femme"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#IngredientActif"/>
+        <NamedIndividual IRI="#amoxicilline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antalgique"/>
+        <NamedIndividual IRI="#aspirine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AntiInflammantoire"/>
+        <NamedIndividual IRI="#aspirineacétylsalicylique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaladieChronique"/>
+        <NamedIndividual IRI="#asthme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fabricant"/>
+        <NamedIndividual IRI="#astrazeneca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#fabrique"/>
+            <Class IRI="#Medicament"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#astrazeneca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#generique"/>
+        <NamedIndividual IRI="#atorvastatine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotique"/>
+        <NamedIndividual IRI="#azithromycine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fabricant"/>
+        <NamedIndividual IRI="#bayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormeMedicament"/>
+        <NamedIndividual IRI="#comprime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaladieVirale"/>
+        <NamedIndividual IRI="#covid-19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#delafontaine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Description"/>
+        <NamedIndividual IRI="#description1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Description"/>
+        <NamedIndividual IRI="#description2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Description"/>
+        <NamedIndividual IRI="#description3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Description"/>
+        <NamedIndividual IRI="#description4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaladieChronique"/>
+        <NamedIndividual IRI="#diaabete"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AntiInflammantoire"/>
+        <NamedIndividual IRI="#diclofenac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotique"/>
+        <NamedIndividual IRI="#doxycycline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#dupont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EffetSecondaire"/>
+        <NamedIndividual IRI="#eruption_cutanee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormeMedicament"/>
+        <NamedIndividual IRI="#gellule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaladieVirale"/>
+        <NamedIndividual IRI="#grippeSaisonnière"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaladieVirale"/>
+        <NamedIndividual IRI="#hepatiteC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaladieChronique"/>
+        <NamedIndividual IRI="#hypertension"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antalgique"/>
+        <NamedIndividual IRI="#ibuprofène"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="0">
+            <ObjectProperty IRI="#aEffetSecondaire"/>
+            <Class IRI="#Medicament"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#ibuprofène"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Femme"/>
+        <NamedIndividual IRI="#ines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormeMedicament"/>
+        <NamedIndividual IRI="#injection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fabricant"/>
+        <NamedIndividual IRI="#ipsen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#jules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Femme"/>
+        <NamedIndividual IRI="#lina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#generique"/>
+        <NamedIndividual IRI="#lipitor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormeMedicament"/>
+        <NamedIndividual IRI="#liquide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IngredientActif"/>
+        <NamedIndividual IRI="#loratadine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EffetSecondaire"/>
+        <NamedIndividual IRI="#maux_estomac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EffetSecondaire"/>
+        <NamedIndividual IRI="#maux_tete"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotique"/>
+        <NamedIndividual IRI="#metronidazole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antalgique"/>
+        <NamedIndividual IRI="#morphine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AntiInflammantoire"/>
+        <NamedIndividual IRI="#naproxène"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EffetSecondaire"/>
+        <NamedIndividual IRI="#nausee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IngredientActif"/>
+        <NamedIndividual IRI="#omeprazole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antalgique"/>
+        <NamedIndividual IRI="#paracetamole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AntiInflammantoire"/>
+        <NamedIndividual IRI="#prednisone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaladieChronique"/>
+        <NamedIndividual IRI="#rhumatoïde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fabricant"/>
+        <NamedIndividual IRI="#sanofi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fabricant"/>
+        <NamedIndividual IRI="#servier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaladieVirale"/>
+        <NamedIndividual IRI="#sida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EffetSecondaire"/>
+        <NamedIndividual IRI="#somnolence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#therence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antalgique"/>
+        <NamedIndividual IRI="#tramadol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotique"/>
+        <NamedIndividual IRI="#vancomycine"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#ibuprofène"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#morphine"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#paracetamole"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#tramadol"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#asthme"/>
+        <NamedIndividual IRI="#covid-19"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#asthme"/>
+        <NamedIndividual IRI="#grippeSaisonnière"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#covid-19"/>
+        <NamedIndividual IRI="#grippeSaisonnière"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#ibuprofène"/>
+        <NamedIndividual IRI="#morphine"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#ibuprofène"/>
+        <NamedIndividual IRI="#paracetamole"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#ibuprofène"/>
+        <NamedIndividual IRI="#tramadol"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#morphine"/>
+        <NamedIndividual IRI="#paracetamole"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#morphine"/>
+        <NamedIndividual IRI="#tramadol"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#tramadol"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aDescription"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#description2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aEffetSecondaire"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#nausee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aForme"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#comprime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngredientActif"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#amoxicilline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrescrit"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#dupont"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrescrit"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#therence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#soigne"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <NamedIndividual IRI="#asthme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fabrique"/>
+        <NamedIndividual IRI="#astrazeneca"/>
+        <NamedIndividual IRI="#azithromycine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fabrique"/>
+        <NamedIndividual IRI="#astrazeneca"/>
+        <NamedIndividual IRI="#doxycycline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fabriquepar"/>
+        <NamedIndividual IRI="#ibuprofène"/>
+        <NamedIndividual IRI="#sanofi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aDescription"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <NamedIndividual IRI="#description3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aEffetSecondaire"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <NamedIndividual IRI="#somnolence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aForme"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <NamedIndividual IRI="#gellule"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngredientActif"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <NamedIndividual IRI="#omeprazole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrescrit"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <NamedIndividual IRI="#delafontaine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrescrit"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <NamedIndividual IRI="#lina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fabriquepar"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <NamedIndividual IRI="#ipsen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aDescription"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#description1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aEffetSecondaire"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#eruption_cutanee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aEffetSecondaire"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#nausee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aForme"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#comprime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aForme"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#gellule"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrescrit"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#ines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fabriquepar"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#sanofi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#soigne"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#asthme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#soigne"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#covid-19"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#soigne"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <NamedIndividual IRI="#grippeSaisonnière"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fabrique"/>
+        <NamedIndividual IRI="#sanofi"/>
+        <NamedIndividual IRI="#aspirine"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formuleChimique"/>
+        <NamedIndividual IRI="#amoxicilline"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">C16H19N3O5S</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomIngredientActif"/>
+        <NamedIndividual IRI="#amoxicilline"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">amoxicilline</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1992-05-20T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">aspirine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#aspirine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#aspirineacétylsalicylique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#aspirineacétylsalicylique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#aspirineacétylsalicylique"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">iaspirineacétylsalicylique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#aspirineacétylsalicylique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dureeMC"/>
+        <NamedIndividual IRI="#asthme"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1825</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#asthme"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">asthme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symptomes"/>
+        <NamedIndividual IRI="#asthme"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">essoufflement _SifflementsRespiratoires_Allergènes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#adresse"/>
+        <NamedIndividual IRI="#astrazeneca"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">14avenue_Alain_Savary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEntreprise"/>
+        <NamedIndividual IRI="#astrazeneca"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">astrazeneca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pays"/>
+        <NamedIndividual IRI="#astrazeneca"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">france</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#atorvastatine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#atorvastatine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-14T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#atorvastatine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">atorvastatine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#atorvastatine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#azithromycine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2028-01-01T00:08:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#azithromycine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#azithromycine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">azithromycine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#azithromycine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#adresse"/>
+        <NamedIndividual IRI="#bayer"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">22 _rue _Geneve</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEntreprise"/>
+        <NamedIndividual IRI="#bayer"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bayer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pays"/>
+        <NamedIndividual IRI="#bayer"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">suisse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomForme"/>
+        <NamedIndividual IRI="#comprime"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">comprime</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#covid-19"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">covid-19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomVirus"/>
+        <NamedIndividual IRI="#covid-19"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sras_cov_2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symptomes"/>
+        <NamedIndividual IRI="#covid-19"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">touxSeche_perteGout_perteOdorat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antecedantMedicaux"/>
+        <NamedIndividual IRI="#delafontaine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateNaissance"/>
+        <NamedIndividual IRI="#delafontaine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-10-12T20:16:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#groupeSanguin"/>
+        <NamedIndividual IRI="#delafontaine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#niveauTestosterone"/>
+        <NamedIndividual IRI="#delafontaine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomPatient"/>
+        <NamedIndividual IRI="#delafontaine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">delafontaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsPatient"/>
+        <NamedIndividual IRI="#delafontaine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">85.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#description1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">blanche</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#details"/>
+        <NamedIndividual IRI="#description1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">un médicament anti-inflammatoire non stéroïdien (AINS) utilisé pour réduire la douleur, l&apos;inflammation et abaisser la fièvre. Voici une description générale de l&apos;ibuprofène</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsMedicament"/>
+        <NamedIndividual IRI="#description1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">220</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#description2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">jaune</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#details"/>
+        <NamedIndividual IRI="#description2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">médicamenteux administré par voie orale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsMedicament"/>
+        <NamedIndividual IRI="#description2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#description3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">blanche</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#details"/>
+        <NamedIndividual IRI="#description3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">couramment utilisé pour réduire la fièvre et soulager la douleur légère à modérée, comme les maux de tête, les douleurs musculaires et les douleurs menstruelles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsMedicament"/>
+        <NamedIndividual IRI="#description3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#description4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rouge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#details"/>
+        <NamedIndividual IRI="#description4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">utilisée pour traiter diverses infections bactériennes, telles que les infections des voies respiratoires, les infections urinaires, l&apos;acné, la maladie de Lyme et d&apos;autres maladies transmises par les tiques</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsMedicament"/>
+        <NamedIndividual IRI="#description4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">270</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dureeMC"/>
+        <NamedIndividual IRI="#diaabete"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5475</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#diaabete"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diabete</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symptomes"/>
+        <NamedIndividual IRI="#diaabete"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">soif_fatigue_visionFloue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#diclofenac"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#diclofenac"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#diclofenac"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diclofenac</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#diclofenac"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#doxycycline"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-11T20:10:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#doxycycline"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-11T20:10:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#doxycycline"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">doxycyline</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#doxycycline"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antecedantMedicaux"/>
+        <NamedIndividual IRI="#dupont"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grippe_mauxTete</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateNaissance"/>
+        <NamedIndividual IRI="#dupont"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-15T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#groupeSanguin"/>
+        <NamedIndividual IRI="#dupont"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#niveauTestosterone"/>
+        <NamedIndividual IRI="#dupont"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomPatient"/>
+        <NamedIndividual IRI="#dupont"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dupont</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsPatient"/>
+        <NamedIndividual IRI="#dupont"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duree"/>
+        <NamedIndividual IRI="#eruption_cutanee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gravite"/>
+        <NamedIndividual IRI="#eruption_cutanee"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">moyen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEffet"/>
+        <NamedIndividual IRI="#eruption_cutanee"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eruptionCutannee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomForme"/>
+        <NamedIndividual IRI="#gellule"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gellule</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#grippeSaisonnière"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fievre_touxSeche_mauxTete</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#grippeSaisonnière"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grippeSaisonniere</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomVirus"/>
+        <NamedIndividual IRI="#grippeSaisonnière"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">influenzaA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#hepatiteC"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hepatiteC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomVirus"/>
+        <NamedIndividual IRI="#hepatiteC"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vhc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symptomes"/>
+        <NamedIndividual IRI="#hepatiteC"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jaunisse_douleursAbdominales_fatigue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dureeMC"/>
+        <NamedIndividual IRI="#hypertension"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#hypertension"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hypertension</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symptomes"/>
+        <NamedIndividual IRI="#hypertension"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">essoufflement _SaignementsNez _vision_Floue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#ibuprofène"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-21T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#ibuprofène"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-03T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#ibuprofène"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ibuprofene</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#ibuprofène"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Enceinte"/>
+        <NamedIndividual IRI="#ines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#allaitante"/>
+        <NamedIndividual IRI="#ines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antecedantMedicaux"/>
+        <NamedIndividual IRI="#ines"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">toux_asthme_cholera_tenia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateNaissance"/>
+        <NamedIndividual IRI="#ines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#groupeSanguin"/>
+        <NamedIndividual IRI="#ines"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomPatient"/>
+        <NamedIndividual IRI="#ines"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ines</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsPatient"/>
+        <NamedIndividual IRI="#ines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">75.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomForme"/>
+        <NamedIndividual IRI="#injection"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">injection</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#adresse"/>
+        <NamedIndividual IRI="#ipsen"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">14_blvd_brooklin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEntreprise"/>
+        <NamedIndividual IRI="#ipsen"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ipsen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pays"/>
+        <NamedIndividual IRI="#ipsen"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">usa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Enceinte"/>
+        <NamedIndividual IRI="#lina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#allaitante"/>
+        <NamedIndividual IRI="#lina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antecedantMedicaux"/>
+        <NamedIndividual IRI="#lina"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">covid19_hepatite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateNaissance"/>
+        <NamedIndividual IRI="#lina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#groupeSanguin"/>
+        <NamedIndividual IRI="#lina"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomPatient"/>
+        <NamedIndividual IRI="#lina"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsPatient"/>
+        <NamedIndividual IRI="#lina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">65.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#lipitor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#lipitor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-11T10:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#lipitor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lipitor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#lipitor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomForme"/>
+        <NamedIndividual IRI="#liquide"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">liquide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formuleChimique"/>
+        <NamedIndividual IRI="#loratadine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">C22H23ClN2O2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomIngredientActif"/>
+        <NamedIndividual IRI="#loratadine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">loratadine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duree"/>
+        <NamedIndividual IRI="#maux_estomac"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gravite"/>
+        <NamedIndividual IRI="#maux_estomac"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grave</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEffet"/>
+        <NamedIndividual IRI="#maux_estomac"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mauxEstomac</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duree"/>
+        <NamedIndividual IRI="#maux_tete"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gravite"/>
+        <NamedIndividual IRI="#maux_tete"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grave</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEffet"/>
+        <NamedIndividual IRI="#maux_tete"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mauxTete</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-11T20:10:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-11T20:10:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">metronidazole</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#metronidazole"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#morphine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#morphine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#morphine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">morphine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#morphine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#naproxène"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#naproxène"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#naproxène"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">naproxène</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#naproxène"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duree"/>
+        <NamedIndividual IRI="#nausee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gravite"/>
+        <NamedIndividual IRI="#nausee"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">faible</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEffet"/>
+        <NamedIndividual IRI="#nausee"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nausee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formuleChimique"/>
+        <NamedIndividual IRI="#omeprazole"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">C17H19N3O3S</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomIngredientActif"/>
+        <NamedIndividual IRI="#omeprazole"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">omeprazole</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-07T21:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-01T13:10:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">paracetamol</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#paracetamole"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#prednisone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#prednisone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#prednisone"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">prednisone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#prednisone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dureeMC"/>
+        <NamedIndividual IRI="#rhumatoïde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#rhumatoïde"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rhumatoîde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symptomes"/>
+        <NamedIndividual IRI="#rhumatoïde"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">douleurArticulaire_Fièvre_perteDepoids</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#adresse"/>
+        <NamedIndividual IRI="#sanofi"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">21_rue_des_Martyrs_de_Boulogne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEntreprise"/>
+        <NamedIndividual IRI="#sanofi"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sanofi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pays"/>
+        <NamedIndividual IRI="#sanofi"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">france</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#adresse"/>
+        <NamedIndividual IRI="#servier"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">16_rue_New_Delhi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEntreprise"/>
+        <NamedIndividual IRI="#servier"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">servier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pays"/>
+        <NamedIndividual IRI="#servier"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomMaladie"/>
+        <NamedIndividual IRI="#sida"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomVirus"/>
+        <NamedIndividual IRI="#sida"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vih</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symptomes"/>
+        <NamedIndividual IRI="#sida"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ganlionEnfle_pertePoids_eruptionCutanee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duree"/>
+        <NamedIndividual IRI="#somnolence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gravite"/>
+        <NamedIndividual IRI="#somnolence"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">moyen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomEffet"/>
+        <NamedIndividual IRI="#somnolence"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">somnolence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antecedantMedicaux"/>
+        <NamedIndividual IRI="#therence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateNaissance"/>
+        <NamedIndividual IRI="#therence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2003-11-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#groupeSanguin"/>
+        <NamedIndividual IRI="#therence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#niveauTestosterone"/>
+        <NamedIndividual IRI="#therence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomPatient"/>
+        <NamedIndividual IRI="#therence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">therence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#poidsPatient"/>
+        <NamedIndividual IRI="#therence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">80.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#tramadol"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-01T06:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#tramadol"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-06T03:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#tramadol"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tramadol</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#tramadol"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateExpiration"/>
+        <NamedIndividual IRI="#vancomycine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFabrication"/>
+        <NamedIndividual IRI="#vancomycine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-11T20:12:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomCommercial"/>
+        <NamedIndividual IRI="#vancomycine"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vamcomycine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posologieRecom"/>
+        <NamedIndividual IRI="#vancomycine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#aForme"/>
+        <ObjectProperty IRI="#aDescription"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#decrit"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estForme"/>
+        <ObjectProperty IRI="#decrit"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aDescription"/>
+        <ObjectProperty IRI="#decrit"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aEffetSecondaire"/>
+        <ObjectProperty IRI="#effetSecondaireConcerne"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aForme"/>
+        <ObjectProperty IRI="#estForme"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#estPrescrit"/>
+        <ObjectProperty IRI="#prendsMedicaments"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#fabrique"/>
+        <ObjectProperty IRI="#fabriquepar"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#soigne"/>
+        <ObjectProperty IRI="#soignerPar"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aDescription"/>
+        <Class IRI="#Medicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aEffetSecondaire"/>
+        <Class IRI="#Medicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aForme"/>
+        <Class IRI="#Medicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aIngredientActif"/>
+        <Class IRI="#Medicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estPrescrit"/>
+        <Class IRI="#Medicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fabrique"/>
+        <Class IRI="#Fabricant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#soigne"/>
+        <Class IRI="#Medicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aDescription"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aEffetSecondaire"/>
+        <Class IRI="#EffetSecondaire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aForme"/>
+        <Class IRI="#FormeMedicament"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aIngredientActif"/>
+        <Class IRI="#IngredientActif"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estPrescrit"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fabrique"/>
+        <Class IRI="#Medicament"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#soigne"/>
+        <Class IRI="#Maladie"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#adresse"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#couleur"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#dateFabrication"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nomIngredientActif"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#poidsMedicament"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Enceinte"/>
+        <Class IRI="#Femme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#adresse"/>
+        <Class IRI="#Fabricant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#allaitante"/>
+        <Class IRI="#Femme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#antecedantMedicaux"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#couleur"/>
+        <Class IRI="#Description"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateExpiration"/>
+        <Class IRI="#Medicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateFabrication"/>
+        <Class IRI="#Medicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateNaissance"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#details"/>
+        <Class IRI="#Description"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duree"/>
+        <Class IRI="#EffetSecondaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dureeMC"/>
+        <Class IRI="#MaladieChronique"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formuleChimique"/>
+        <Class IRI="#IngredientActif"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gravite"/>
+        <Class IRI="#EffetSecondaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#groupeSanguin"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#niveauTestosterone"/>
+        <Class IRI="#homme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomCommercial"/>
+        <Class IRI="#Medicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomEffet"/>
+        <Class IRI="#EffetSecondaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomEntreprise"/>
+        <Class IRI="#Fabricant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomForme"/>
+        <Class IRI="#FormeMedicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomIngredientActif"/>
+        <Class IRI="#IngredientActif"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomMaladie"/>
+        <Class IRI="#Maladie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomPatient"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomVirus"/>
+        <Class IRI="#MaladieVirale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pays"/>
+        <Class IRI="#Fabricant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#poidsMedicament"/>
+        <Class IRI="#Description"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#poidsPatient"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#posologieRecom"/>
+        <Class IRI="#Medicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prenomPatient"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#symptomes"/>
+        <Class IRI="#Maladie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vaccin"/>
+        <Class IRI="#Maladie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Enceinte"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#adresse"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#allaitante"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#antecedantMedicaux"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#couleur"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateExpiration"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateFabrication"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateNaissance"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#details"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duree"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dureeMC"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formuleChimique"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gravite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#groupeSanguin"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#niveauTestosterone"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomCommercial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomEffet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomEntreprise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomForme"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomIngredientActif"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomMaladie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomPatient"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomVirus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pays"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#poidsMedicament"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#poidsPatient"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#posologieRecom"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prenomPatient"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#symptomes"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vaccin"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#volume"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Medicament avec moins de deux effets secondaires</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Medicament"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#EffetSecondaire"/>
+                <Variable IRI="urn:swrl#es"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#aEffetSecondaire"/>
+                <Variable IRI="urn:swrl#m"/>
+                <Variable IRI="urn:swrl#es"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MedicamentSansEffetGrave"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Fabricant"/>
+                <Variable IRI="urn:swrl#f"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#pays"/>
+                <Variable IRI="urn:swrl#f"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">france</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#FabricantLocaux"/>
+                <Variable IRI="urn:swrl#f"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">fabrique une seule catégorie de medicament</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S8</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Medicament"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16m1"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Fabricant"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16f"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#fabrique"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16f"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16m1"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Medicament"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16m2"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#fabrique"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16f"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16m2"/>
+            </ObjectPropertyAtom>
+            <SameIndividualAtom>
+                <Variable IRI="urn:swrl#untitled-ontology-16m1"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16m2"/>
+            </SameIndividualAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#FabricantUnique"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16f"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Medicament prescrit aux femmes enceinte</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S7</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Medicament"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16m"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Femme"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16f1"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#allaitante"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16f1"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#estPrescrit"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16m"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16f1"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MedicamentPourFemmeEnceinte"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Médicament ayant déjà atteint la date de péremption</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Medicament"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#dateExpiration"/>
+                <Variable IRI="urn:swrl#m"/>
+                <Variable IRI="urn:swrl#dateExp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#dateTime">
+                <Variable IRI="urn:swrl#dateExp"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl#dateExp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2023-12-14T23:59:59</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MedicamentPerime"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">patient dont le poids est supérieur à 80Kg</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16X"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#poidsPatient"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16X"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16poids"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl#untitled-ontology-16poids"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">80.0</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#PatientEnSurpoids"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16X"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Patients ayant un poids élevé avec des antecedants de maladie</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S6</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#poidsPatient"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16p"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16weight"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16weight"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">90.0</Literal>
+            </BuiltInAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#antecedantMedicaux"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16p"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16am"/>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#PatientPoidsEleveAntecedants"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Les patients dont nés après 2013(donc ayant moins de 10 ans) ce sont des enfants</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#dateNaissance"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16p"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2013-01-01T00:00:00</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#PatientEnfant"/>
+                <Variable IRI="urn:swrl#untitled-ontology-16untitled-ontology-16untitled-ontology-16untitled-ontology-16p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
